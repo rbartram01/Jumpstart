@@ -10,10 +10,10 @@ $(document).ready(function(){
   });
 
 
+var lastScrollTop = 0;
 
 
-  /*var lastScrollTop = 0;
-  $(window).scroll(function(){
+$(window).scroll(function(){
     var scrollTop = $(this).scrollTop();
     if (scrollTop - lastScrollTop > 50){
       var navHeight = $('.navbar').css('height');
@@ -23,5 +23,5 @@ $(document).ready(function(){
       $('.navbar').animate({top: '0px'}, 150);
       lastScrollTop = scrollTop;
     }
-  });*/
+  });
 });
